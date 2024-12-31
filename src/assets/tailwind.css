@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+	.text-shadow {
+		text-shadow: 0 5px 60px rgb(20, 96, 167);
+	}
+}
+
+
+
+
+
+body {
+	@apply bg-background;
+	--color: #040404;
+	background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  	background-size: 55px 55px;
+}
+
+
+
+.background-blob {
+	background: linear-gradient(55deg, #00ffea, #8400ff);
+}
