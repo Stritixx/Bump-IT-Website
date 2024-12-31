@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="center example-nav" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
-			<vs-navbar v-model="active" not-line center-collapsed class="!bg-transparent !text-gray-100 px-[200px] max-2xl:px-[100px] max-lg:px-[50px] pt-8 -z-0">
+			<vs-navbar v-model="active" not-line center-collapsed class="!bg-transparent !text-gray-100 px-[200px] max-2xl:px-[100px] max-lg:px-[50px] max-sm:px-[25px] pt-8 -z-0">
 				<template #left>
 					<img src="./assets/images/logo.png" alt="Logo" class="h-[50px]"/>
 					<h1 class="font-bold">Bump IT</h1>
