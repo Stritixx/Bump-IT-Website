@@ -34,7 +34,7 @@
 
 		<transition name="drop">
 			<nav class="w-full p-5 absolute z-50 min-[800px]:hidden top-0" v-if="isMobile">
-				<div class="bg-black bg-opacity-50 backdrop-blur-3xl border-2 border-gray-900 border-solid rounded-xl">
+				<div class="bg-black border-2 border-gray-900 border-solid rounded-xl">
 					<div class="w-full h-[100px] text-white font-bold flex justify-between items-center px-[35px]">
 					<div class="flex items-center">
 						<img src="./assets/images/logo.png" alt="" class="h-[50px]">
