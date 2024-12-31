@@ -66,7 +66,7 @@
 
 
 
-<style scoped>
+<style>
 	.drop-enter-active {
 		animation: drop .2s;
 	}
@@ -88,7 +88,23 @@
 			opacity: 1;
 		}
 	}
-  
+
+
+	::-webkit-scrollbar {
+		width: 6px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,6,19,1) 48%, rgb(2, 6, 8) 100%);
+
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #0051ff;
+		border-radius: 5px;
+	}
+
+	
 </style>
 
 
