@@ -12,8 +12,8 @@
 			</div>
 			<ul class="flex flex-col gap-[20px] pl-[45px] mt-2 text-white pb-12">
 				<li>Home</li>
-				<li>How it works</li>
 				<li>Get started</li>
+				<li>How it works</li>
 				<li>News</li>
 			</ul>
 		</div>
