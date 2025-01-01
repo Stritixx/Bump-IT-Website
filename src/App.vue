@@ -29,7 +29,7 @@
 						<vs-button type="flat">YouTube</vs-button>
 						<vs-button class="!ml-4">Discord</vs-button>
 					</div>
-					<span @click="isMobile = true" class="hidden max-[800px]:block cursor-pointer">
+					<span @click="openNavbar" class="hidden max-[800px]:block cursor-pointer">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
 					</span>
 				</template>
@@ -57,63 +57,25 @@
 
 <script>
 	import MobileNavbar from './components/MobileNavbar.vue';
+	import { ref, provide } from 'vue';
+
 
 	export default {
 		name: "App",
 		components: {
 			MobileNavbar,
+		},
+		setup() {
+			const isMobileNavbarActive = ref(false);
+
+			provide('isMobileNavbarActive', isMobileNavbarActive);
+
+
+			const openNavbar = () => {
+				isMobileNavbarActive.value = !isMobileNavbarActive.value;
+			}
+
+			return { openNavbar }
 		}
 	}
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-<style>
-	.drop-enter-active {
-		animation: drop .2s;
-	}
-
-
-	.drop-leave-active {
-		animation: drop .2s reverse;
-	}
-
-
-	@keyframes drop {
-		0% {
-			transform: scale(0);
-			opacity: 0;
-		}
-
-		100% {
-			transform: scale(1);
-			opacity: 1;
-		}
-	}
-
-
-	::-webkit-scrollbar {
-		width: 6px;
-	}
-
-	::-webkit-scrollbar-track {
-		background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,6,19,1) 48%, rgb(2, 6, 8) 100%);
-
-	}
-
-	::-webkit-scrollbar-thumb {
-		background: #0051ff;
-		border-radius: 5px;
-	}
-
-	
-</style>

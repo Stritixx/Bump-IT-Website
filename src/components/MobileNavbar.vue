@@ -23,7 +23,15 @@
 
 
 <script>
+	import { inject } from 'vue';
+
+
 	export default {
 		name: "MobileNavbar",
+		setup() {
+			const isMobile = inject('isMobileNavbarActive');
+
+			return { isMobile }
+		}
 	}
 </script>
