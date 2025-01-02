@@ -75,7 +75,7 @@
 					</div>
 				</div>
 				<div class="flex items-center" data-aos-delay="900" data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">
-					<img src="/yt.png" alt="Image" class="rounded-[25px] shadow-video max-xl:w-[600px] max-lg:mt-[50px] transition-all duration-300">
+					<img src="/yt.png" alt="Image" class="rounded-[25px] shadow-video max-xl:w-[600px] max-lg:mt-[100px] transition-all duration-300">
 				</div>
 			</div>
 		</div>
