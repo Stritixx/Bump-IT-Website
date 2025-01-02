@@ -10,7 +10,7 @@
 	<div data-aos="fade-up" data-aos-delay="1300" data-aos-duration="500" data-aos-offset="0">
 		<router-link to="/about">
 			<vs-button type="flat" :active="active == 1" @click="active = 1" class="!ml-4 !text-sm">
-				How it works?
+				Discord
 			</vs-button>
 		</router-link>
 	</div>

@@ -16,14 +16,6 @@
 				<vs-navbar-item id="Get Started" :active="active == 'Get Started'" class="max-[800px]:hidden">
 					Get Started
 				</vs-navbar-item>
-				<vs-navbar-item id="About us" :active="active == 'About us'" class="max-[800px]:hidden">
-					<router-link to="/about">
-						How it works
-					</router-link>
-				</vs-navbar-item>
-				<vs-navbar-item id="News" :active="active == 'News'" class="max-[800px]:hidden">
-					News
-				</vs-navbar-item>
 				<template #right>
 					<div class="flex max-[800px]:hidden max-[800px]:absolute">
 						<vs-button type="flat">YouTube</vs-button>
