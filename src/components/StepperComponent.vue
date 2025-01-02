@@ -3,7 +3,7 @@
 		<div class="container flex flex-wrap transition-all duration-300" bis_skin_checked="1">
 			<div class="flex flex-wrap w-full justify-between max-sm:mt-[200px] max-sm:pb-[100px]" bis_skin_checked="1">
 				<div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6" bis_skin_checked="1">
-					<div class="flex relative pb-12 max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="300" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 !max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="300" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 1s;" bis_skin_checked="1"></div>
 						</div>
@@ -18,7 +18,7 @@
 							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Create discord account if you don't have yet and join our <a href="https://sd.com" class="text-blue-500">Discord Server</a> then complete server verification.</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12 max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 !max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 1.6s;" bis_skin_checked="1"></div>
 						</div>
@@ -32,7 +32,7 @@
 							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Go to the "start" channel then click menu and select option: "add server".</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12 max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="700" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 !max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="700" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 2.2s;" bis_skin_checked="1"></div>
 						</div>
@@ -47,7 +47,7 @@
 							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Complete input fields with <b>correctly data</b> like server link, bumping account nickname, guild ID.</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12 max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="900" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 !max-sm:pb[20px]" bis_skin_checked="1" data-aos-delay="900" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 2.8s;" bis_skin_checked="1"></div>
 						</div>
