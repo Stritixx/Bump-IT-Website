@@ -1,7 +1,7 @@
 <template>
 	<BackgroundBlob/>
 	<HomeViewStart />
-	<SideBlobs />
+	<SideBlobs data-aos="zoom-in" data-aos-delay="150"/>
 </template>
 
 

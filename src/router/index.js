@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import AboutView from '@/views/AboutView.vue';
 import HomeView from '@/views/HomeView.vue';
+import GetStartedView from '@/views/GetStartedView.vue';
 
 
 
@@ -14,6 +15,11 @@ const my_routes = [
 		component: AboutView,
 		name: 'AboutView',
 		path: '/about'
+	},
+	{
+		component: GetStartedView,
+		name: 'GetStartedView',
+		path: '/get-started'
 	}
 ]
 
