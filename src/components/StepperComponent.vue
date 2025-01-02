@@ -1,9 +1,9 @@
 <template>
 	<section class="text-gray-600 body-font min-h-screen flex flex-col items-center justify-center max-md:px-12">
 		<div class="container flex flex-wrap transition-all duration-300" bis_skin_checked="1">
-			<div class="flex flex-wrap w-full justify-between max-sm:mt-[250px]" bis_skin_checked="1">
+			<div class="flex flex-wrap w-full justify-between max-sm:mt-[200px] max-sm:pb-[100px]" bis_skin_checked="1">
 				<div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6" bis_skin_checked="1">
-					<div class="flex relative pb-12" bis_skin_checked="1" data-aos-delay="300" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 max-sm:pb[30px]" bis_skin_checked="1" data-aos-delay="300" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 1s;" bis_skin_checked="1"></div>
 						</div>
@@ -15,10 +15,10 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 3.8s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">STEP 1</h2>
-							<p class="leading-relaxed text-gray-400">Create discord account if you don't have yet and join our <a href="https://sd.com" class="text-blue-500">Discord Server</a> then complete server verification.</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Create discord account if you don't have yet and join our <a href="https://sd.com" class="text-blue-500">Discord Server</a> then complete server verification.</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12" bis_skin_checked="1" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 max-sm:pb[30px]" bis_skin_checked="1" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 1.6s;" bis_skin_checked="1"></div>
 						</div>
@@ -29,10 +29,10 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 3.9s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">STEP 2</h2>
-							<p class="leading-relaxed text-gray-400">Go to the "start" channel then click menu and select option: "add server".</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Go to the "start" channel then click menu and select option: "add server".</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12" bis_skin_checked="1" data-aos-delay="700" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 max-sm:pb[30px]" bis_skin_checked="1" data-aos-delay="700" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 2.2s;" bis_skin_checked="1"></div>
 						</div>
@@ -44,10 +44,10 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 4s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">STEP 3</h2>
-							<p class="leading-relaxed text-gray-400">Complete input fields with <b>correctly data</b> like server link, bumping account nickname, guild ID.</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Complete input fields with <b>correctly data</b> like server link, bumping account nickname, guild ID.</p>
 						</div>
 					</div>
-					<div class="flex relative pb-12" bis_skin_checked="1" data-aos-delay="900" data-aos="fade-up" data-aos-duration="1000">
+					<div class="flex relative pb-12 max-sm:pb[30px]" bis_skin_checked="1" data-aos-delay="900" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
 							<div class="h-full w-1 bg-blue-500 pointer-events-none opacity-70 animate-stepper" style="animation-delay: 2.8s;" bis_skin_checked="1"></div>
 						</div>
@@ -58,7 +58,7 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 4.1s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">STEP 4</h2>
-							<p class="leading-relaxed text-gray-400">Your "server-add" request will be send to the server admins. They will check data correctness.</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Your "server-add" request will be send to the server admins. They will check data correctness.</p>
 						</div>
 					</div>
 					<div class="flex relative" bis_skin_checked="1" data-aos-delay="1100" data-aos="fade-up" data-aos-duration="1000">
@@ -70,11 +70,11 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 4.2s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">FINISH</h2>
-							<p class="leading-relaxed text-gray-400">If your data is correct then your server will be added to the autobumper!</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">If your data is correct then your server will be added to the autobumper!</p>
 						</div>
 					</div>
 				</div>
-				<div class="flex items-center" data-aos-delay="900" data-aos="fade-up" data-aos-duration="500">
+				<div class="flex items-center" data-aos-delay="900" data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">
 					<img src="/yt.png" alt="Image" class="rounded-[25px] shadow-video max-xl:w-[600px] max-lg:mt-[50px] transition-all duration-300">
 				</div>
 			</div>
