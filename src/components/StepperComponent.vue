@@ -1,7 +1,7 @@
 <template>
 	<section class="text-gray-600 body-font min-h-screen flex flex-col items-center justify-center max-md:px-12">
 		<div class="container flex flex-wrap transition-all duration-300" bis_skin_checked="1">
-			<div class="flex flex-wrap w-full justify-between" bis_skin_checked="1">
+			<div class="flex flex-wrap w-full justify-between max-sm:mt-[250px]" bis_skin_checked="1">
 				<div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6" bis_skin_checked="1">
 					<div class="flex relative pb-12" bis_skin_checked="1" data-aos-delay="300" data-aos="fade-up" data-aos-duration="1000">
 						<div class="h-full w-10 absolute inset-0 flex justify-center" bis_skin_checked="1">
