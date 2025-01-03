@@ -15,7 +15,7 @@
 						</div>
 						<div class="flex-grow pl-6 animate-stepper-scale" style="animation-delay: 3.8s;" bis_skin_checked="1">
 							<h2 class="font-bold title-font text-sm text-gray-200 mb-1 tracking-wider">STEP 1</h2>
-							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Create discord account if you don't have yet and join our <a href="https://discord.gg/bump-it" class="text-blue-500">Discord Server</a> then complete server verification.</p>
+							<p class="leading-relaxed text-gray-400 max-sm:text-[14px]">Create discord account if you don't have yet and join our <a href="https://discord.gg/bump-it" target="_blank" rel="noopener noreferrer" class="text-blue-500">Discord Server</a> then complete server verification.</p>
 						</div>
 					</div>
 					<div class="flex relative pb-12 max-sm:pb-[30px]" bis_skin_checked="1" data-aos-delay="500" data-aos="fade-up" data-aos-duration="1000">
@@ -75,7 +75,7 @@
 					</div>
 				</div>
 				<div class="flex items-center" data-aos-delay="900" data-aos="fade-up" data-aos-duration="500" data-aos-offset="0">
-					<img src="/yt.png" alt="Image" class="rounded-[25px] shadow-video max-xl:w-[600px] max-lg:mt-[100px] transition-all duration-300">
+					<StepperImage />
 				</div>
 			</div>
 		</div>
@@ -85,8 +85,13 @@
 
 
 <script>
+	import StepperImage from './StepperImage.vue';
+
 	export default {
 		name: "StepperComponent",
+		components: {
+			StepperImage,
+		}
 	}
 </script>
 

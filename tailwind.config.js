@@ -32,7 +32,7 @@ module.exports = {
 
 
 			boxShadow: {
-				'video': '0px 11px 32px -19px rgba(0, 255, 193, 0.2)'
+				'video': '0px 11px 32px -19px rgb(0 70 255 / 20%)'
 			},
 
 			keyframes: {
