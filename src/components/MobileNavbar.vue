@@ -4,7 +4,7 @@
 			<div class="w-full h-[100px] text-white font-bold flex justify-between items-center px-[35px]">
 				<div class="flex items-center">
 					<router-link to="/" class="flex items-center" @click="isMobile = !isMobile">
-						<img src="../assets/images/logo.png" alt="" class="h-[50px]">
+						<img src="/images/logo.png" alt="" class="h-[50px]">
 						Bump IT
 					</router-link>
 				</div>
