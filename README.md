@@ -1,24 +1,13 @@
-# frontend
+<h1 align="left">Bump IT - AutoBumper</h1>
 
-## Project setup
-```
-npm install
-```
+###
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="33" alt="vuejs logo"  />
+</div>
 
-### Compiles and minifies for production
-```
-npm run build
-```
+###
 
-### Lints and fixes files
-```
-npm run lint
-```
+<h2 align="left"></h2>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+###
